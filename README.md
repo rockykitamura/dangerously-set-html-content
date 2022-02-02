@@ -10,6 +10,8 @@ dangerously-set-html-content
 
 [![NPM](https://img.shields.io/npm/v/dangerously-set-html-content.svg)](https://www.npmjs.com/package/dangerously-set-html-content) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+- [Dangerously-set-html-content v1 Repo](https://github.com/christo-pr/dangerously-set-html-content-v1)
+
 ## Context
 
 Here's a blog post that explain more in detail:
