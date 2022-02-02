@@ -1,0 +1,45 @@
+{
+  "root": "libs/dangerously-set-html-content",
+  "sourceRoot": "libs/dangerously-set-html-content/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/dangerously-set-html-content",
+        "tsConfig": "libs/dangerously-set-html-content/tsconfig.lib.json",
+        "project": "libs/dangerously-set-html-content/package.json",
+        "entryFile": "libs/dangerously-set-html-content/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "libs/dangerously-set-html-content/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/dangerously-set-html-content/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/dangerously-set-html-content"],
+      "options": {
+        "jestConfig": "libs/dangerously-set-html-content/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

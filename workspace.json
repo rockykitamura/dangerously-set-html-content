@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "projects": {
+    "demo-app": "apps/demo",
+    "dangerously-set-html-content": "libs/dangerously-set-html-content",
+    "dangerously-set-html-content-e2e": "apps/dangerously-set-html-content-e2e"
+  }
+}

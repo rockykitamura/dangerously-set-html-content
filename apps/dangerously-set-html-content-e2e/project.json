@@ -1,0 +1,30 @@
+{
+  "root": "apps/dangerously-set-html-content-e2e",
+  "sourceRoot": "apps/dangerously-set-html-content-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/dangerously-set-html-content-e2e/cypress.json",
+        "devServerTarget": "dangerously-set-html-content:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "dangerously-set-html-content:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "apps/dangerously-set-html-content-e2e/**/*.{js,ts}"
+        ]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["dangerously-set-html-content"]
+}
