@@ -1,4 +1,4 @@
-import { HTMLAttributes, useEffect, useRef } from 'react'
+import { useEffect, useRef, HTMLAttributes } from 'react'
 
 /* eslint-disable-next-line */
 type Props = HTMLAttributes<HTMLDivElement> & {
