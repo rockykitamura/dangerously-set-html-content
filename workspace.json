@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "dangerously-set-html-content": "libs/dangerously-set-html-content",
+    "ssr-test-app": "apps/ssr-test-app",
     "test-app": "apps/test-app"
   }
 }

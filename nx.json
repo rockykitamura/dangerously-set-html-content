@@ -43,6 +43,11 @@
         "style": "css",
         "linter": "eslint"
       }
+    },
+    "@nrwl/gatsby": {
+      "application": {
+        "style": "css"
+      }
     }
   },
   "defaultProject": "dangerously-set-html-content"
