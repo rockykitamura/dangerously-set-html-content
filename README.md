@@ -67,17 +67,13 @@ This will also work for scripts with the `src` attribute set it
 
 ## Development
 
-Run `nx serve demo` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `nx run test-app:serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 > The demo app has already imported the lib for testing purposes
 
 ## Running unit & e2e tests
 
 Run `nx test` to execute the unit tests via [Jest](https://jestjs.io).
-Run `nx affected:test` to execute the unit tests affected by a change.
-
-Run `ng e2e` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
 
 ## License
 
