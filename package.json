@@ -2,6 +2,7 @@
   "name": "dangerousely-set-html-content-wks",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "./dist/libs/dangerously-set-html-content/index.esm.js",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
