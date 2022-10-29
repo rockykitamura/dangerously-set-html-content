@@ -1,5 +1,5 @@
 {
-  "name": "dangerousely-set-html-content-wks",
+  "name": "dangerously-set-html-content",
   "version": "0.0.0",
   "license": "MIT",
   "main": "./dist/libs/dangerously-set-html-content/index.esm.js",
